@@ -10,10 +10,10 @@ import Projects from './projects';
 const Main = () => (
     <Switch>
         <Route exact path="/" component={LandingPage} />
-        <Route exact path="/" component={AboutMe} />
-        <Route exact path="/" component={Contact} />
-        <Route exact path="/" component={Cv} />
-        <Route exact path="/" component={Projects} />
+        <Route path="/aboutme" component={AboutMe} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/cv" component={Cv} />
+        <Route path="/projects" component={Projects} />
     </Switch>
 )
 
